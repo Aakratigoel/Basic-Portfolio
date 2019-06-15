@@ -9,7 +9,7 @@ div.mainDiv{
     background-size: cover;
     position: relative;
   }
-  header.headerDiv{
+  header{
       position: relative;
       top:40px;
       right:0;
@@ -23,6 +23,24 @@ div.mainDiv{
       font-family: Georgia, 'Times New Roman', Times, serif;
       position: absolute;
       left:40px;
+      display: inline;
+    }
+    table{
+        position: relative;
+        left:1100px;
+        top: 12px;
+        border-spacing: 10px;
+    }
+    td{
+        text-align: center;
+        padding:10px;
+    }
+    a{
+        color:white;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 23px;
+    
     }
 /*a{
     background-color:cadetblue;
