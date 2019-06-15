@@ -17,7 +17,7 @@ div.mainDiv{
       background-color:teal;
     border:2px outset white;
   }
-  h1{
+  .firstHeading{
       color:white;
       font-weight: bold;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,6 +42,27 @@ div.mainDiv{
         font-size: 23px;
     
     }
+    .childDiv{
+       background-color: paleturquoise;
+        width:1000px;
+        height:450px;
+        position: relative;
+        top:100px;
+        left:220px;
+        border: 1px outset teal;
+    }
+    .secondHeading{
+        color:teal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        left:30px;
+    }
+    img{
+        position: relative;
+        top:100px;
+        left:20px;
+    }
+     
 /*a{
     background-color:cadetblue;
     text-align: center;
