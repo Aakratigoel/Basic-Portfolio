@@ -17,6 +17,13 @@ div.mainDiv{
       background-color:teal;
     border:2px outset white;
   }
+  h1{
+      color:white;
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      position: absolute;
+      left:40px;
+    }
 /*a{
     background-color:cadetblue;
     text-align: center;
