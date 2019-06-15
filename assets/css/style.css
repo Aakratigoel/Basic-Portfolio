@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+div.mainDiv{
+    background-image:url("../images/div1Image.jpg") ;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  header.headerDiv{
+      position: relative;
+      top:40px;
+      right:0;
+      height:85px;
+      background-color:teal;
+    border:2px outset white;
+  }
+/*a{
+    background-color:cadetblue;
+    text-align: center;
+    color:white;
+    padding:25px;
+    text-decoration: none;
+    font-weight: bold;
+    position: fixed;
+    left : 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+   font-size: 30px;
+}*/
+
