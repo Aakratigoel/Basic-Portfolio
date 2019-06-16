@@ -1,17 +1,20 @@
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 div.mainDiv{
-    background-image:url("../images/div1Image.jpg") ;
-    height: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+     background-image:url("../images/div2Image.jpg") ; 
+    height: 600px;
     position: relative;
+    top:50px;
+    /* background-position: center;  */
+     /* background-repeat: repeat-x;   */
+    /* background-size: cover;  */
+   
+    
   }
   header{
       position: relative;
-      top:40px;
+      top:20px;
       right:0;
       height:85px;
       background-color:teal;
@@ -43,26 +46,59 @@ div.mainDiv{
     
     }
     .childDiv{
-       background-color: paleturquoise;
-        width:1000px;
+       /* background-color: white;  */
+        width:70%;
         height:450px;
-        position: relative;
-        top:100px;
-        left:220px;
-        border: 1px outset teal;
+        position: absolute;
+        top:70px;
+        left:200px;
+       margin:0 auto;
+        border: 3px solid white; 
+        padding: 0 10px;
+        overflow: auto;
     }
     .secondHeading{
-        color:teal;
+        color:white;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        position: absolute;
-        left:30px;
+        padding:10px 10px 20px 10px;
+        border-bottom: 3px solid white;
+        margin: 0 auto;
+
     }
     img{
-        position: relative;
-        top:100px;
-        left:20px;
+        /* position: absolute; */
+        float:left;
+        /* top:90px; */
+        /* left:20px; */
+        margin-right:40px;
+        margin-bottom: 40px;
+        
     }
-     
+     p{
+          position:absolute; 
+          top:90px;
+          left:20px;
+        /* float:left; */
+         color:white;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
+         padding-right:25px;
+         text-align: justify;
+     }
+     footer{
+         clear: both; 
+         position: relative; 
+         top:50px;
+         height:70px;
+         background-color: teal;
+         color:white;
+         text-align: center;
+        padding-top:25px;
+        padding-bottom: 25px;
+         border-top: 2px solid white;
+         /*why vertical-align:middle not working*/
+         
+     }
 /*a{
     background-color:cadetblue;
     text-align: center;
