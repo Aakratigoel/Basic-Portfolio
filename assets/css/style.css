@@ -9,8 +9,6 @@ div.mainDiv{
     /* background-position: center;  */
      /* background-repeat: repeat-x;   */
     /* background-size: cover;  */
-   
-    
   }
   header{
       position: relative;
@@ -53,10 +51,34 @@ div.mainDiv{
         top:70px;
         left:200px;
        margin:0 auto;
-        border: 3px solid white; 
+        /* border: 3px solid white;  */
         padding: 0 10px;
-        overflow: auto;
+        /* overflow: auto; */
     }
+    .childDiv1{
+        /* background-color: white;  */
+         width:50%;
+         height:450px;
+         position: absolute;
+         top:30px;
+         left:350px;
+        margin:0 auto;
+          /* border: 3px solid white;   */
+         padding: 0 10px;
+         /* overflow: auto; */
+     }
+     .childDiv2{
+        /* background-color: white;  */
+         width:50%;
+         height:450px;
+         position: absolute;
+         top:30px;
+         left:350px;
+        margin:0 auto;
+           border: 3px solid white;   
+         padding: 0 10px;
+         /* overflow: auto; */
+     }
     .secondHeading{
         color:white;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -96,8 +118,49 @@ div.mainDiv{
         padding-top:25px;
         padding-bottom: 25px;
          border-top: 2px solid white;
-         /*why vertical-align:middle not working*/
+         /*Query :why vertical-align:middle not working?
+          can we use display:inline instead of using float:left?
+          sticky position
+          height:auto, what does it do
+          try sticky
+          try opacity
+          
+         */
          
+     }
+     form{
+        position:absolute; 
+        top:90px;
+        left:20px;
+         color:white;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
+         font-size: 20px;
+         padding-right:25px;
+         text-align: justify;
+     }
+     
+     #input1
+     {
+         width:695px;
+         height: 20px;
+     }
+     #input2
+     {
+         width:695px;
+         height: 20px;
+     }
+     #input3
+     {
+         width:695px;
+         height: 100px;
+     }
+     #button
+     {
+         background-color: teal;
+         color: white;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
      }
 /*a{
     background-color:cadetblue;
