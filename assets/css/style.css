@@ -1,22 +1,30 @@
 body{
     /* background-color: black; */
 }
-div.mainDiv{
+.mainDiv{
      background-image:url("../images/div2Image.jpg") ; 
     height: 600px;
-    position: relative;
-    top:50px;
+    position: relative; 
+    top:130px;
+    z-index: -1;
+    
     /* background-position: center;  */
      /* background-repeat: repeat-x;   */
     /* background-size: cover;  */
   }
   header{
-      position: relative;
-      top:20px;
-      right:0;
-      height:85px;
-      background-color:teal;
-    border:2px outset white;
+    /* position: relative;
+    top:20px;
+    right:0; */
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    margin:25px 5px;
+    height:85px;
+    width:1425px;
+    background-color:teal;
+  border:2px outset white;
   }
   .firstHeading{
       color:white;
@@ -75,7 +83,7 @@ div.mainDiv{
          top:30px;
          left:350px;
         margin:0 auto;
-           border: 3px solid white;   
+           /* border: 3px solid white;    */
          padding: 0 10px;
          /* overflow: auto; */
      }
@@ -110,14 +118,15 @@ div.mainDiv{
      footer{
          clear: both; 
          position: relative; 
-         top:50px;
-         height:70px;
+         top:130px;
+         height:30px;
          background-color: teal;
          color:white;
          text-align: center;
         padding-top:25px;
         padding-bottom: 25px;
          border-top: 2px solid white;
+         z-index: -1;
          /*Query :why vertical-align:middle not working?
           can we use display:inline instead of using float:left?
           sticky position
@@ -161,6 +170,11 @@ div.mainDiv{
          color: white;
          font-family: Georgia, 'Times New Roman', Times, serif;
          font-size: 20px;
+     }
+     .techImages
+     {
+         width:200px;
+         height:200px;
      }
 /*a{
     background-color:cadetblue;
