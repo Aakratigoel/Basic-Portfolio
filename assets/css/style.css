@@ -29,13 +29,13 @@ body{
     }
     .navTable{
         position: relative;
-        left:1100px;
+        left:1000px;
         top: 12px;
         border-spacing: 10px;
     }
     .navTd{
         text-align: center;
-        padding:10px;
+        padding:5px;
     }
     .navLink{
         color:white;
