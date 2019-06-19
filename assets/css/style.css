@@ -6,16 +6,9 @@ body{
     height: 600px;
     position: relative; 
     top:130px;
-    z-index: -1;
-    
-    /* background-position: center;  */
-     /* background-repeat: repeat-x;   */
-    /* background-size: cover;  */
+    /* z-index: -1; */
   }
   header{
-    /* position: relative;
-    top:20px;
-    right:0; */
     position:fixed;
     top:0;
     right:0;
@@ -34,22 +27,21 @@ body{
       left:40px;
       display: inline;
     }
-    table{
+    .navTable{
         position: relative;
         left:1100px;
         top: 12px;
         border-spacing: 10px;
     }
-    td{
+    .navTd{
         text-align: center;
         padding:10px;
     }
-    a{
+    .navLink{
         color:white;
         text-decoration: none;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 23px;
-    
     }
     .childDiv{
        /* background-color: white;  */
@@ -58,7 +50,7 @@ body{
         position: absolute;
         top:70px;
         left:200px;
-       margin:0 auto;
+        margin:0 auto;
         /* border: 3px solid white;  */
         padding: 0 10px;
         /* overflow: auto; */
@@ -95,7 +87,7 @@ body{
         margin: 0 auto;
 
     }
-    img{
+    #mainImage{
         /* position: absolute; */
         float:left;
         /* top:90px; */
@@ -171,22 +163,89 @@ body{
          font-family: Georgia, 'Times New Roman', Times, serif;
          font-size: 20px;
      }
-     .techImages
+     .tablePortfolio
      {
-         width:200px;
-         height:200px;
+         position: absolute;
+         top:80px;
+         left: 10px;
+         width:712px;
+         height:100%;
      }
-/*a{
-    background-color:cadetblue;
-    text-align: center;
-    color:white;
-    padding:25px;
-    text-decoration: none;
-    font-weight: bold;
-    position: fixed;
-    left : 150px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: inline-block;
-   font-size: 30px;
-}*/
 
+#techLink1
+{
+    position: absolute;
+    top:0;
+    width:200px;
+    height: 200px;
+   
+}
+
+#techLink2
+{
+    position: absolute;
+    top:0;
+    width:200px;
+    height: 200px;
+   
+}
+#techLink3
+{
+    position: absolute;
+    top:225px;
+    width:200px;
+    height: 200px;
+    
+}
+#techLink4
+{
+    position: absolute;
+    top:225px;
+    width:200px;
+    height: 200px;
+   
+}
+#techHeading1{
+    position: absolute;
+    top:130px;
+    left:3px;
+    padding-top:7px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    width:200px;
+    height: 35px;
+} 
+#techHeading2{
+    position: absolute;
+    top:130px;
+    left:358px;
+    padding-top:7px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    width:200px;
+    height: 35px;
+} 
+#techHeading3{
+    position: absolute;
+    top:357px;
+    left:3px;
+    padding-top:7px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    width:200px;
+    height: 35px;
+} 
+#techHeading4{
+    position: absolute;
+    top:357px;
+    left:358px;
+    padding-top:7px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    width:200px;
+    height: 35px;
+} 
